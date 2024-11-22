@@ -101,16 +101,16 @@ const facts = [
 ];
 
 const backgroundImages = [
-    "https://images.unsplash.com/photo-1465093960093-d717f55e0b06?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGZvcmVzdHxlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080", // Nature
-    "https://images.unsplash.com/photo-1485793984699-fef0240dbff7?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDdffG1vcm5pbmcgdGhlIHNreXxlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080", // Space
-    "https://images.unsplash.com/photo-1506748686214-4d8d2b23e900?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJlYWNofGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080", // Ocean
-    "https://images.unsplash.com/photo-1496390284405-5a0c8b3f0101?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG1vdW50YWluc3xlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080", // Mountain
-    "https://images.unsplash.com/photo-1495576147588-cba6ba98ac62?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG5pZ2h0Y2l0eXxlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080", // City
-    "https://images.unsplash.com/photo-1530119287072-77d129a9adf3?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fGRlc2VydHxlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080", // Desert
-    "https://images.unsplash.com/photo-1504366811407-5093e22e0145?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDcyfHxtaW5kZWxpcGllfGVufDB8fDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080", // Sky
-    "https://images.unsplash.com/photo-1496853090732-9fc9d1cc48e4?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGxhbmRzY2FwZXxlbnwwfDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080", // Travel
-    "https://images.unsplash.com/photo-1487638147470-698a54076890?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJlYWNoLCBzdW5zZXQxfGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080", // Beach
-    "https://images.unsplash.com/photo-1506748686214-4d8d2b23e900?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJlYWNofGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080"  // Flowers
+    "https://images.unsplash.com/photo-1621490634245-c8c76cc432ee?q=80&w=2984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // spider
+    "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Space
+    "https://images.unsplash.com/photo-1457364887197-9150188c107b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Ocean
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Mountain
+    "https://plus.unsplash.com/premium_photo-1672116452571-896980a801c8?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // City
+    "https://images.unsplash.com/photo-1703953753076-d2190583785c?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Desert
+    "https://plus.unsplash.com/premium_photo-1672234253746-99ac19181f0b?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Sky
+    "https://images.unsplash.com/photo-1496950866446-3253e1470e8e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Travel
+    "https://images.unsplash.com/photo-1495954484750-af469f2f9be5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Beach
+    "https://images.unsplash.com/photo-1571992049393-827d13da8fe3?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  // Flowers
 ];
 
 
