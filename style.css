@@ -49,12 +49,6 @@ button:hover {
     animation: slideIn 1s;
 }
 
-.fact-image {
-    margin-top: 20px;
-    max-width: 100%;
-    border-radius: 8px;
-    animation: fadeIn 1.5s;
-}
 
 @keyframes fadeIn {
     from { opacity: 0; }
