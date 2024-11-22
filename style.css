@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
 
 .container {
@@ -14,10 +15,16 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.05);
 }
 
 h1 {
     color: #4CAF50;
+    animation: fadeIn 2s;
 }
 
 button {
@@ -28,6 +35,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s;
 }
 
 button:hover {
@@ -38,4 +46,22 @@ button:hover {
     margin-top: 20px;
     font-size: 18px;
     color: #333;
+    animation: slideIn 1s;
+}
+
+.fact-image {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 8px;
+    animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
 }
